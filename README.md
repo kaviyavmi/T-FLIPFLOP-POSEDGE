@@ -2,7 +2,7 @@
 
 **AIM:**
 
-To implement  T flipflop using verilog and validating their functionality using their functional tables
+To implement T flipflop using verilog and validating their functionality using their functional tables
 
 **SOFTWARE REQUIRED:**
 
@@ -53,7 +53,7 @@ module t_ff_ (t, clk, rst, q);
 begin
 
     if (rst)
-      q <= 0; // Reset the flip-flop
+      q <= 0; 
     else if (t==0)
       q <= q; 
      else
@@ -69,7 +69,7 @@ endmodule
 ![WhatsApp Image 2024-12-23 at 14 16 09_bef9c632](https://github.com/user-attachments/assets/507d8cf0-5ddc-400a-9b45-7d7a03fe54e2)
 
 
-**TIMING DIGRAMS FOR FLIP FLOPS**
+**TIMING DIAGRAMS FOR FLIP FLOPS**
 
 ![WhatsApp Image 2024-12-23 at 14 16 10_82cccc90](https://github.com/user-attachments/assets/8ee3a3a1-373a-4538-83f7-d7d6cdf8b523)
 
